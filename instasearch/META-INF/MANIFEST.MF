@@ -7,8 +7,6 @@ Bundle-Activator: it.unibz.instasearch.InstaSearchPlugin
 Bundle-DocURL: https://github.com/ajermakovics/eclipse-instasearch
 Bundle-UpdateLocation: http://dl.bintray.com/ajermakovics/InstaSearch/
 Require-Bundle: org.eclipse.ui;bundle-version="3.7.0",
- org.apache.lucene;bundle-version="[2.9.1,2.9.2]",
- org.apache.lucene.analysis;bundle-version="[2.9.1,2.9.2)",
  org.apache.commons.lang,
  org.eclipse.ui.ide,
  org.eclipse.ui.editors,
@@ -20,15 +18,18 @@ Require-Bundle: org.eclipse.ui;bundle-version="3.7.0",
  org.eclipse.debug.ui,
  org.eclipse.jdt.ui;resolution:=optional,
  org.eclipse.jdt.core;resolution:=optional,
- org.junit;bundle-version="4.0.0";resolution:=optional,
- org.apache.lucene.highlighter;bundle-version="[2.9.1,2.9.2)",
- org.apache.lucene.memory;bundle-version="[2.9.1,2.9.2)",
- org.apache.lucene.misc;bundle-version="[2.9.1,2.9.2)",
- org.apache.lucene.queries;bundle-version="[2.9.1,2.9.2)",
- org.apache.lucene.snowball;bundle-version="[2.9.1,2.9.2)",
- org.apache.lucene.spellchecker;bundle-version="[2.9.1,2.9.2)"
+ org.junit;bundle-version="4.0.0";resolution:=optional
 Bundle-Vendor: Andrejs Jermakovics
-Bundle-ClassPath: .
+Bundle-ClassPath: .,
+ lib/org.apache.lucene_2.9.1.v201101211721.jar,
+ lib/org.apache.lucene.analysis_2.9.1.v201101211721.jar,
+ lib/org.apache.lucene.core_2.9.1.v201101211721.jar,
+ lib/org.apache.lucene.highlighter_2.9.1.v20100421-0704.jar,
+ lib/org.apache.lucene.memory_2.9.1.v20100421-0704.jar,
+ lib/org.apache.lucene.misc_2.9.1.v20100421-0704.jar,
+ lib/org.apache.lucene.queries_2.9.1.v20100421-0704.jar,
+ lib/org.apache.lucene.snowball_2.9.1.v20100421-0704.jar,
+ lib/org.apache.lucene.spellchecker_2.9.1.v20100421-0704.jar
 Eclipse-LazyStart: false
 Bundle-ActivationPolicy: lazy
 Bundle-Localization: plugin

@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry exported="true" kind="lib" path="lib/org.apache.lucene_2.9.1.v201101211721.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.apache.lucene.analysis_2.9.1.v201101211721.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.apache.lucene.core_2.9.1.v201101211721.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.apache.lucene.highlighter_2.9.1.v20100421-0704.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.apache.lucene.memory_2.9.1.v20100421-0704.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.apache.lucene.misc_2.9.1.v20100421-0704.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.apache.lucene.queries_2.9.1.v20100421-0704.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.apache.lucene.snowball_2.9.1.v20100421-0704.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.apache.lucene.spellchecker_2.9.1.v20100421-0704.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
 	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
-	<classpathentry excluding="**/.svn/" kind="src" path="src"/>
-	<classpathentry excluding="**/.svn/" kind="src" path="test"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src/"/>
+	<classpathentry kind="output" path="target/classes"/>
 </classpath>
